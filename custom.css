@@ -55,11 +55,11 @@ figcaption {
 
 /* Week B - light blue */
 .schedule-week-b > td {
-    background-color: #e3f2fd !important;
+    background-color: #f1f3f5 !important;
 }
 
 .schedule-week-b.week-start > td {
-    background-color: #e3f2fd !important;
+    background-color: #f1f3f5 !important;
 }
 
 /* Clear divider at the beginning of each instructional week */
