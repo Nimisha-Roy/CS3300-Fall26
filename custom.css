@@ -43,19 +43,6 @@ figcaption {
 /* =========================
    Weekly Grouping
    ========================= */
-
-/* Week A - light gray */
-.schedule-week-a > td {
-    background-color: #faf9f6  !important;
-}
-
-
-/* Week B - light blue */
-.schedule-week-b > td {
-    background-color: #faf9f6  !important;
-}
-
-
 /* Clear divider at the beginning of each instructional week */
 .schedule-week-a.week-start > td,
 .schedule-week-b.week-start > td {
