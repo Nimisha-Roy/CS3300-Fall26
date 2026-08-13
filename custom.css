@@ -10,16 +10,29 @@ figcaption {
 
 
 /* =========================
+   Page Width
+   ========================= */
+
+/* Give the schedule more horizontal space on larger screens */
+@media (min-width: 1200px) {
+    .container {
+        width: 95%;
+        max-width: 1500px;
+    }
+}
+
+
+/* =========================
    Schedule Table
    ========================= */
 
-/* Make schedule table slightly wider than the main content */
 #schedule + h4 + table {
-    width: 110%;
-    margin-left: -5%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-/* Give cells a little more breathing room */
+/* Improve readability of schedule cells */
 #schedule + h4 + table th,
 #schedule + h4 + table td {
     padding: 10px 12px;
@@ -27,18 +40,22 @@ figcaption {
 }
 
 
-/* Alternate shading by instructional week */
+/* =========================
+   Weekly Grouping
+   ========================= */
+
+/* Week A - white */
 .schedule-week-a {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
 }
 
+/* Week B - subtle gray */
 .schedule-week-b {
-    background-color: #eef5fa;
+    background-color: #f2f4f5;
 }
 
-
-/* Slightly stronger divider at the beginning of each week */
+/* Clear divider at the beginning of each instructional week */
 .schedule-week-a.week-start td,
 .schedule-week-b.week-start td {
-    border-top: 2px solid #c8c8c8;
+    border-top: 3px solid #aeb4b9;
 }
