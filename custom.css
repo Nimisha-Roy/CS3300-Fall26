@@ -44,18 +44,22 @@ figcaption {
    Weekly Grouping
    ========================= */
 
-/* Week A - white */
-.schedule-week-a {
-    background-color: #ffffff;
+/* =========================
+   Weekly Grouping
+   ========================= */
+
+/* Week A - light gray */
+.schedule-week-a > td {
+    background-color: #f1f3f5 !important;
 }
 
 /* Week B - light blue */
-.schedule-week-b {
-    background-color: #e8f3fa;
+.schedule-week-b > td {
+    background-color: #e3f2fd !important;
 }
 
 /* Clear divider at the beginning of each instructional week */
-.schedule-week-a.week-start td,
-.schedule-week-b.week-start td {
-    border-top: 3px solid #9aa5ad;
+.schedule-week-a.week-start > td,
+.schedule-week-b.week-start > td {
+    border-top: 3px solid #9aa5ad !important;
 }
