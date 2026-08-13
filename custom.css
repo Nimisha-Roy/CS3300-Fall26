@@ -1,8 +1,44 @@
-figure{
+figure {
     display: inline-block;
 }
-figcaption{
-	width: 200px;
+
+figcaption {
+    width: 200px;
     text-align: center;
-	font-size: .7rem;
+    font-size: .7rem;
+}
+
+
+/* =========================
+   Schedule Table
+   ========================= */
+
+/* Make schedule table slightly wider than the main content */
+#schedule + h4 + table {
+    width: 110%;
+    margin-left: -5%;
+}
+
+/* Give cells a little more breathing room */
+#schedule + h4 + table th,
+#schedule + h4 + table td {
+    padding: 10px 12px;
+    vertical-align: top;
+}
+
+
+/* Alternate shading by instructional week */
+.schedule-week-a {
+    background-color: #f7f7f7;
+}
+
+.schedule-week-b {
+    background-color: #eef5fa;
+}
+
+
+/* Slightly stronger divider at the beginning of each week */
+.schedule-week-a.week-start td,
+.schedule-week-b.week-start td {
+    border-top: 2px solid #c8c8c8;
 }
