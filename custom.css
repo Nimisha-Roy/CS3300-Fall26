@@ -49,13 +49,13 @@ figcaption {
     background-color: #ffffff;
 }
 
-/* Week B - subtle gray */
+/* Week B - light blue */
 .schedule-week-b {
-    background-color: #f2f4f5;
+    background-color: #e8f3fa;
 }
 
 /* Clear divider at the beginning of each instructional week */
 .schedule-week-a.week-start td,
 .schedule-week-b.week-start td {
-    border-top: 3px solid #aeb4b9;
+    border-top: 3px solid #9aa5ad;
 }
