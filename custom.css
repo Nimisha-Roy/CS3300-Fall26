@@ -46,21 +46,15 @@ figcaption {
 
 /* Week A - light gray */
 .schedule-week-a > td {
-    background-color: #f1f3f5 !important;
+    background-color: #faf9f6  !important;
 }
 
-.schedule-week-a.week-start > td {
-    background-color: #f1f3f5 !important;
-}
 
 /* Week B - light blue */
 .schedule-week-b > td {
-    background-color: #f1f3f5 !important;
+    background-color: #faf9f6  !important;
 }
 
-.schedule-week-b.week-start > td {
-    background-color: #f1f3f5 !important;
-}
 
 /* Clear divider at the beginning of each instructional week */
 .schedule-week-a.week-start > td,
